@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="ISO-8859-1">
+		<meta charset="utf-8">
 		<meta name="author" content="Marty Bonacci">
 		<meta name="description" content="prework for the deep dive coding bootcamp"><!--The description appears with the title in search reaults.-->
 		<title>I completed the prework</title>
