@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="iso-8859-11">
 		<title>I completed the prework</title>
 	</head>
 	<body>
