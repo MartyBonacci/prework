@@ -8,8 +8,19 @@
 	</head>
 	<body>
 		<h1>ELEMENT 16</h1>
-		<php></php>
+
 		<p>Japanese example: ご飯が熱い。</p>
 		<p>I completed the prework!...again...and again...and  a third time...trying it from awd ide on tablet</p>
+
+		<button id="clicker">Boring Button</button>
+
+		<script>
+			var clickerButton = document.getElementById("clicker")
+			var onButtonClick = function() {
+				clickerButton.textContent = "Oh wow, you clicked me!";
+				clickerButton.addEventListener("click",onButtonClick);
+			}
+		</script>
+
 	</body>
 </html>
