@@ -27,7 +27,7 @@
 			};
 				//catPic.addEventListener("click",onImageClick);
 				catPic.addEventListener("mouseenter",onImageClick);
-				catPic.addEventListener("mounseleave",onImageLeave);
+				catPic.addEventListener("mouseleave",onImageLeave);
 
 		</script>
 	</body>
