@@ -17,13 +17,13 @@
 		<div id="cat-chat"></div>
 
 		<script>
-
+			var catPic = document.getElementById("cat-pic");
 			var picText = document.getElementById("status");
 			var onImageClick = function () {
 				picText.textContent = "Purr";
 			};
 
-				picText.addEventListener("click",onImageClick);
+				catPic.addEventListener("click",onImageClick);
 
 		</script>
 	</body>
