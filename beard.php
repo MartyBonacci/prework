@@ -26,7 +26,8 @@
 			// 2. Define the function that will respond to the event.
 			var onMouseMove = function(event) {
 				console.log(event);
-				document.getElementById("message").textContent += "mooove ";         var beard = document.createElement("div");
+				document.getElementById("message").textContent += "mooove ";
+				var beard = document.createElement("div");
 				beard.className = "beard";
 				document.body.appendChild(beard);
 				beard.style.top = event.clientY + "px";

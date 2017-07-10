@@ -20,6 +20,7 @@
 			var onCatClick = function(e) {
 				consol.log(e);
 				var stashePic = document.getElementById("mustache-pic");
+				stashePic.className = "stachePic";
 				stashePic.style.top = e.clienty + "px";
 				stashePic.style.left = e.clientx + "px";
 			};
