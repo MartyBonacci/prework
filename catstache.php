@@ -17,10 +17,12 @@
 
 		<script>
 			var catPic = document.getElementById("cat-pic");
+
 			var onCatClick = function(e) {
 				consol.log(e);
 				var stashePic = document.getElementById("mustache-pic");
 				stashePic.className = "stachePic";
+				document.body.appendChild(stashePic);
 				stashePic.style.top = e.clienty + "px";
 				stashePic.style.left = e.clientx + "px";
 			};
