@@ -19,14 +19,17 @@
 		<script>
 			var catPic = document.getElementById("cat-pic");
 			var picText = document.getElementById("status");
-			var onImageClick = function () {
+			var onImageEnter = function () {
 				picText.textContent = "Purr";
 			};
 			var onImageLeave = function() {
 				picText.textContent = "Keep petting!";
 			};
-				//catPic.addEventListener("click",onImageClick);
-				catPic.addEventListener("mouseenter",onImageClick);
+			var onImageClick = function() {
+				picText.textContent = "Meow";
+			};
+				catPic.addEventListener("click",onImageClick);
+				catPic.addEventListener("mouseenter",onImageEnter);
 				catPic.addEventListener("mouseleave",onImageLeave);
 
 		</script>
