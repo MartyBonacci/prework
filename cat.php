@@ -10,13 +10,23 @@
 		</style>
 	</head>
 	<body>
-		<h2>Pet me!</h2>
+		<h2 id="status" >Pet me!</h2>
 		<img id="cat-pic" src="https://www.kasandbox.org/programming-images/animals/thumbs/cat.png">
 		<br>
 
 		<div id="cat-chat"></div>
 
 		<script>
+
+			var picText = document.getElementById("status")
+			var onMouseOver function () {
+				picText.textContent = "Purr";
+			}
+			var onMouseLeave function () {
+				picText.textContent = "Pet me more!";
+			}
+				picText.addEventListener("mouseenter",onMouseOver);
+				picText.addEventListener("mouseleave",onMouseLeave);
 
 		</script>
 	</body>
