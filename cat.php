@@ -18,15 +18,12 @@
 
 		<script>
 
-			var picText = document.getElementById("status")
-			var onMouseOver function () {
+			var picText = document.getElementById("status");
+			var onImageClick = function () {
 				picText.textContent = "Purr";
-			}
-			var onMouseLeave function () {
-				picText.textContent = "Pet me more!";
-			}
-				picText.addEventListener("mouseenter",onMouseOver);
-				picText.addEventListener("mouseleave",onMouseLeave);
+			};
+
+				picText.addEventListener("click",onImageClick);
 
 		</script>
 	</body>
