@@ -22,8 +22,12 @@
 			var onImageClick = function () {
 				picText.textContent = "Purr";
 			};
-
-				catPic.addEventListener("click",onImageClick);
+			var onImageLeave = function() {
+				picText.textContent = "Keep petting!";
+			};
+				//catPic.addEventListener("click",onImageClick);
+				catPic.addEventListener("mouseenter",onImageClick);
+				catPic.addEventListener("mounseleave",onImageLeave);
 
 		</script>
 	</body>
